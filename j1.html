@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script>
+            function f(){
+                var a = document.getElementById("t1").value;
+                var b = document.getElementById("t2").value;
+
+document.getElementById("div1").innerHTML = "username "  + a + " password  " + b;
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            Enter your Username:<input type="text" id="t1"><br>
+            Enter your password:<input type="text" id="t2"><br>
+            <input type="button" value="submit" onclick="f()">
+        </form>
+        <div id="div1"></div>
+    </body>
+</html>
